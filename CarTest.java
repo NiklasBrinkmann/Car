@@ -1,6 +1,6 @@
 public class CarTest {
    public static void main ( String[] args ) {
-       Car golfv = new Car( "Golf V TDI", 60, 60, 6.2, 60.0);
+       Car golfv = new Car( "Golf V TDI", 60, 60, 6.2,0);
        System.out.println( "Spritztour ins Allgäu bitte: 600 km");
        golfv.drive( 600 );
        System.out.println( golfv.toString() );
